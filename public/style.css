@@ -1,0 +1,47 @@
+/*
+-~-+=-~-+=-
+S T Y L E S
+-~-+=-~-+=-
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.centered * {
+  text-align: center;
+}
+
+ul.bulletin {
+  list-style: none;
+  padding: 0;
+}
+
+ul.bulletin > li:before {
+  content: "*";
+  padding-right: 5px;
+}
+
+.big {
+  font-size: 1.5rem;
+}
+
+.medium {
+  font-size: 1.25rem;
+}
+
+.small {
+  font-size: 1rem;
+}
