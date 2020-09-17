@@ -8,6 +8,19 @@ S T Y L E S
   box-sizing: border-box;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+    background: lightgray;
+}
+
+.footer-pad {
+    height: 3em;
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -44,4 +57,8 @@ ul.bulletin > li:before {
 
 .small {
   font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
 }
